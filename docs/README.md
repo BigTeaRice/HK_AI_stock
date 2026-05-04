@@ -1,19 +1,20 @@
-# 股票分析工具（Stock Analysis Tool）
+# 📊 港股AI智能分析系統
 
-自動化股票數據分析與可視化工具，支援 yfinance、AkShare 與模擬數據。
+一個基於 Streamlit 的專業港股分析系統，整合 AI 預測、技術指標分析、多策略回測和智能交易建議。
 
-## 功能
-- 自動抓取股票數據（A股、美股）
-- 技術指標計算（MA、RSI、MACD、布林帶）
-- K線圖與成交量圖表生成
-- 靜態網頁可視化（HTML）
+## ✨ 功能特點
 
-## 使用
-- 修改 `stock_analysis_github.py` 中的測試案例
-- 圖表會生成於 `docs/` 資料夾
-- HTML 網頁位於 `docs/index.html`
+- 🤖 **AI股價預測** - 基於機器學習的價格預測模型
+- 📈 **技術指標分析** - RSI、MACD、布林帶、移動平均線
+- 💰 **多策略回測** - SMA、RSI、MACD、布林帶策略
+- 🎯 **智能交易信號** - 綜合多指標生成交易建議
+- 📊 **視覺化圖表** - 專業的K線圖和技術指標圖表
+- 🏆 **最佳策略推薦** - 自動識別最優交易策略
 
-## 部署
-- Python 腳本每日自動運行（GitHub Actions）
-- 靜態網頁部署於 GitHub Pages
+## 🚀 快速開始
+
+### 安裝依賴
+
+```bash
+pip install -r requirements.txt
 
